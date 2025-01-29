@@ -34,6 +34,12 @@ npm install
 npm run start:dev
 ```
 
+Run Prisma migration: 
+
+```bash
+npx prisma migrate dev --name init
+```
+
 Open Prisma Studio:
 
 ```bash
